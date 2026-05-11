@@ -34,6 +34,10 @@ current projects:
 <a href="https://github.com/dervarex/NoMoreNarrator">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=NoMoreNarrator&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
 </a>
+<a href="https://github.com/dervarex/Music-Visualizer">
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=Music-Visualizer&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
+</a>
+
 
 </div>
 (I have many others, but they aren't public yet!)
