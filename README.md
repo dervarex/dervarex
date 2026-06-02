@@ -23,8 +23,8 @@ Speaking of animation, I discovered [BeinBian](https://youtube.com/@beinbian) at
 current projects:
 
 <div align="left">                                                                                                                          
-<a href="https://github.com/dervarex/zip-cli-tool-continuation">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=zip-cli-tool-continuation&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
+<a href="https://github.com/dervarex/minified">
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=minified&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
 </a>
 
 <a href="https://github.com/dervarex/XPMagnet">
