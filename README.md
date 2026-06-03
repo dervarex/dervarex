@@ -8,6 +8,7 @@ Hey, I'm dervarex. I am a young developer living in Germany. I started programmi
 I remade PandaClient a few times, but after the third complete rewrite I finally gave up, as I learned how to do backend in that time, but not frontend. Now I'm focusing on backend-only or backend-focused things and animation.
 Speaking of animation, I discovered [BeinBian](https://youtube.com/@beinbian) at the end of 2025 and really loved his animations. So I began doing my own, improving and failing all over, and I'm probably still doing it.
 After discontinuing PandaClient, I wanted to give back to my community (of 2 people, but those two matter). That's why I created Minified — an open-source Minecraft launcher framework that handles the boring stuff, from downloading game files and managing versions to installing mod loaders and launching the game, allowing developers to focus on creating great launchers.
+
 ---
 
 ### Tech & Tools
