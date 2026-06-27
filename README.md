@@ -21,27 +21,12 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 ### Projects
 
-current projects:
+This is the one I'm currently focusing on:
 
 <div align="left">                                                                                                                          
 <a href="https://github.com/dervarex/minified">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=minified&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
 </a>
-
-<a href="https://github.com/dervarex/XPMagnet">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=XPMagnet&theme=blue_navy&show_icons=true&update=7&dark_bg=3" />
-</a>
-
-<a href="https://github.com/dervarex/NoMoreNarrator">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=NoMoreNarrator&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
-</a>
-<a href="https://github.com/dervarex/Music-Visualizer">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=Music-Visualizer&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
-</a>
-
-
-</div>
-(I have many others, but they aren't public yet!)
 
 ---
 
