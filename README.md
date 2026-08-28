@@ -1,4 +1,4 @@
-[![Fancy Profile Card](https://fancy-readme-stats.vercel.app/api?username=dervarex\&theme=blue_navy\&show_icons=true\&title=Hey,%20I'm%20dervarex%20\&description=Developer%20from%20Germany\&include_all_commits=true\&show_icons=true)](https://github.com/dervarex)
+[![Fancy Profile Card](https://fancy-readme-stats.vercel.app/api?username=dervarex&theme=blue_navy&show_icons=true&title=Hey,%20I%27m%20dervarex%20&description=Developer%20from%20Germany&include_all_commits=true&show_icons=true)](https://github.com/dervarex)
 
 ---
 
