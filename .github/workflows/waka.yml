@@ -1,4 +1,4 @@
-name: Waka Readme
+name: Update Ziit Stats
 
 on:
   schedule:
@@ -6,22 +6,34 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
-    name: Update Readme with Ziit Metrics
+  update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          API_BASE_URL: ${{ secrets.WAKATIME_API_URL }}
-          SHOW_TITLE: true
-          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
-          CODE_LANG: text
-          TIME_RANGE: all_time
-          LANG_COUNT: 10
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          SHOW_MASKED_TIME: false
-          STOP_AT_OTHER: true
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats from Ziit
+        env:
+          ZIIT_URL: ${{ secrets.ZIIT_URL }}
+          ZIIT_KEY: ${{ secrets.ZIIT_KEY }}
+        run: |
+          curl -s "$ZIIT_URL/api/stats?timeRange=all-time" \
+            -H "Authorization: Bearer $ZIIT_KEY" \
+            -o stats.json
+          cat stats.json
+
+      - name: Update README
+        env:
+          ZIIT_URL: ${{ secrets.ZIIT_URL }}
+          ZIIT_KEY: ${{ secrets.ZIIT_KEY }}
+        run: |
+          python3 .github/scripts/update_readme.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Ziit stats"
+          git push
