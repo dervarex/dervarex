@@ -13,8 +13,7 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 ### Tech & Tools
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+![Ziit Stats](./assets/ziit-stats.svg)
 
 ---
 
