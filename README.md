@@ -13,9 +13,8 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 ### Tech & Tools
 
-<a href="https://github.com/dervarex/" align="left">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/wakatime?username=@dervarex&theme=blue_navy&show_icons=true&layout=compact&update=7&dark_bg=3" />
-</a>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 
@@ -36,9 +35,6 @@ This is the one I'm currently focusing on:
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/top-langs/?username=dervarex&theme=blue_navy&show_icons=true&layout=normal&update=7&dark_bg=3" />
 </a>
 
-<figure>
-  <embed src="https://wakatime.com/share/@dervarex/25c18510-0475-43ab-aa9d-c6a89f3228de.svg"></embed>
-</figure>
 
 ---
 
