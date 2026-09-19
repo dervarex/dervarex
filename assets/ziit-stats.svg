@@ -1,0 +1,20 @@
+<svg width="144.6" height="20" viewBox="0 0 1446 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Ziit: 123 hrs 22 mins">
+  <title>Ziit: 123 hrs 22 mins</title>
+  <linearGradient id="AZnPy" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="AGqwW"><rect width="1446" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#AGqwW)">
+    <rect width="438" height="200" fill="#555"/>
+    <rect width="1008" height="200" fill="#007ec6" x="438"/>
+    <rect width="1446" height="200" fill="url(#AZnPy)"/>
+  </g>
+  <g aria-hidden="true" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="220" y="148" textLength="178" fill="#000" opacity="0.25">Ziit</text>
+    <text x="210" y="138" textLength="178" fill="#fff">Ziit</text>
+    <text x="493" y="148" textLength="908" fill="#000" opacity="0.25">123 hrs 22 mins</text>
+    <text x="483" y="138" textLength="908" fill="#fff">123 hrs 22 mins</text>
+  </g>
+  <image x="40" y="35" width="130" height="130" xlink:href="/favicon.ico"/>
+</svg>
