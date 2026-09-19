@@ -1,44 +1,53 @@
-<svg width="560" height="718" viewBox="0 0 560 718" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-<rect width="560" height="718" rx="10" fill="#0d1117" stroke="#30363d"/>
+<svg width="560" height="822" viewBox="0 0 560 822" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="560" height="822" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="349.34" height="8" fill="#b07219"/>
-<rect x="369.34" y="58" width="35.22" height="8" fill="#083fa1"/>
-<rect x="404.56" y="58" width="27.06" height="8" fill="#3178c6"/>
-<rect x="431.61" y="58" width="21.84" height="8" fill="#55171f"/>
-<rect x="453.46" y="58" width="20.34" height="8" fill="#dea584"/>
-<rect x="473.80" y="58" width="8.01" height="8" fill="#A97BFF"/>
-<rect x="481.81" y="58" width="6.77" height="8" fill="#02303a"/>
-<rect x="488.58" y="58" width="6.16" height="8" fill="#0060ac"/>
-<rect x="494.73" y="58" width="6.10" height="8" fill="#fcb32c"/>
-<rect x="500.84" y="58" width="5.85" height="8" fill="#4298b8"/>
-<rect x="506.68" y="58" width="3.85" height="8" fill="#6e7681"/>
-<rect x="510.53" y="58" width="3.64" height="8" fill="#563d7c"/>
-<rect x="514.17" y="58" width="3.44" height="8" fill="#cb171e"/>
-<rect x="517.61" y="58" width="2.89" height="8" fill="#614c06"/>
-<rect x="520.51" y="58" width="2.59" height="8" fill="#f9bf65"/>
-<rect x="523.10" y="58" width="2.58" height="8" fill="#9c4221"/>
-<rect x="525.68" y="58" width="2.53" height="8" fill="#f1e05a"/>
-<rect x="528.21" y="58" width="1.82" height="8" fill="#89e051"/>
-<rect x="530.03" y="58" width="1.50" height="8" fill="#3572A5"/>
-<rect x="531.52" y="58" width="1.45" height="8" fill="#9fdd58"/>
-<rect x="532.97" y="58" width="1.44" height="8" fill="#e34c26"/>
-<rect x="534.41" y="58" width="1.09" height="8" fill="#8b949e"/>
-<rect x="535.50" y="58" width="0.60" height="8" fill="#555555"/>
-<rect x="536.10" y="58" width="0.54" height="8" fill="#e38c00"/>
-<rect x="536.64" y="58" width="0.49" height="8" fill="#427819"/>
-<rect x="537.13" y="58" width="0.35" height="8" fill="#16bbc2"/>
-<rect x="537.48" y="58" width="0.33" height="8" fill="#637ff5"/>
-<rect x="537.81" y="58" width="0.32" height="8" fill="#89e051"/>
-<rect x="538.14" y="58" width="0.31" height="8" fill="#850ee1"/>
-<rect x="538.44" y="58" width="0.30" height="8" fill="#c22d40"/>
-<rect x="538.74" y="58" width="0.26" height="8" fill="#33eee2"/>
-<rect x="539.00" y="58" width="0.23" height="8" fill="#bfa9e1"/>
-<rect x="539.23" y="58" width="0.21" height="8" fill="#F44D27"/>
-<rect x="539.45" y="58" width="0.20" height="8" fill="#21e415"/>
-<rect x="539.65" y="58" width="0.13" height="8" fill="#f1d2c1"/>
+<rect x="20.00" y="58" width="345.99" height="8" fill="#b07219"/>
+<rect x="365.99" y="58" width="34.87" height="8" fill="#083fa1"/>
+<rect x="400.86" y="58" width="26.79" height="8" fill="#3178c6"/>
+<rect x="427.65" y="58" width="21.63" height="8" fill="#55171f"/>
+<rect x="449.27" y="58" width="20.14" height="8" fill="#dea584"/>
+<rect x="469.41" y="58" width="7.93" height="8" fill="#A97BFF"/>
+<rect x="477.34" y="58" width="6.70" height="8" fill="#02303a"/>
+<rect x="484.04" y="58" width="6.10" height="8" fill="#0060ac"/>
+<rect x="490.14" y="58" width="6.04" height="8" fill="#fcb32c"/>
+<rect x="496.18" y="58" width="5.79" height="8" fill="#4298b8"/>
+<rect x="501.96" y="58" width="3.81" height="8" fill="#6e7681"/>
+<rect x="505.78" y="58" width="3.61" height="8" fill="#563d7c"/>
+<rect x="509.38" y="58" width="3.41" height="8" fill="#cb171e"/>
+<rect x="512.79" y="58" width="2.86" height="8" fill="#614c06"/>
+<rect x="515.65" y="58" width="2.57" height="8" fill="#f9bf65"/>
+<rect x="518.22" y="58" width="2.55" height="8" fill="#9c4221"/>
+<rect x="520.77" y="58" width="2.50" height="8" fill="#f1e05a"/>
+<rect x="523.28" y="58" width="1.80" height="8" fill="#89e051"/>
+<rect x="525.07" y="58" width="1.60" height="8" fill="#bfa9e1"/>
+<rect x="526.67" y="58" width="1.48" height="8" fill="#3572A5"/>
+<rect x="528.15" y="58" width="1.43" height="8" fill="#9fdd58"/>
+<rect x="529.59" y="58" width="1.43" height="8" fill="#e34c26"/>
+<rect x="531.02" y="58" width="1.08" height="8" fill="#8b949e"/>
+<rect x="532.10" y="58" width="1.01" height="8" fill="#cd5272"/>
+<rect x="533.10" y="58" width="0.89" height="8" fill="#ce92f8"/>
+<rect x="534.00" y="58" width="0.59" height="8" fill="#555555"/>
+<rect x="534.59" y="58" width="0.53" height="8" fill="#e38c00"/>
+<rect x="535.12" y="58" width="0.49" height="8" fill="#427819"/>
+<rect x="535.60" y="58" width="0.40" height="8" fill="#0d5aa6"/>
+<rect x="536.00" y="58" width="0.38" height="8" fill="#e6c400"/>
+<rect x="536.38" y="58" width="0.35" height="8" fill="#16bbc2"/>
+<rect x="536.73" y="58" width="0.33" height="8" fill="#637ff5"/>
+<rect x="537.06" y="58" width="0.32" height="8" fill="#522bc5"/>
+<rect x="537.38" y="58" width="0.32" height="8" fill="#89e051"/>
+<rect x="537.70" y="58" width="0.30" height="8" fill="#850ee1"/>
+<rect x="538.00" y="58" width="0.30" height="8" fill="#c22d40"/>
+<rect x="538.30" y="58" width="0.25" height="8" fill="#33eee2"/>
+<rect x="538.55" y="58" width="0.24" height="8" fill="#13ba75"/>
+<rect x="538.79" y="58" width="0.21" height="8" fill="#F44D27"/>
+<rect x="539.00" y="58" width="0.20" height="8" fill="#21e415"/>
+<rect x="539.20" y="58" width="0.19" height="8" fill="#9b0f99"/>
+<rect x="539.39" y="58" width="0.15" height="8" fill="#c11ff5"/>
+<rect x="539.54" y="58" width="0.13" height="8" fill="#f1d2c1"/>
+<rect x="539.67" y="58" width="0.11" height="8" fill="#522c93"/>
 <rect x="539.78" y="58" width="0.07" height="8" fill="#178600"/>
-<rect x="539.85" y="58" width="0.05" height="8" fill="#f34b7d"/>
+<rect x="539.86" y="58" width="0.05" height="8" fill="#f34b7d"/>
 <rect x="539.91" y="58" width="0.05" height="8" fill="#4f0add"/>
 <rect x="539.96" y="58" width="0.01" height="8" fill="#5b8ee4"/>
 <rect x="539.97" y="58" width="0.01" height="8" fill="#8d171a"/>
@@ -50,7 +59,7 @@
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
-<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 82 hrs 19 mins</text>
+<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 82 hrs 22 mins</text>
 <circle cx="25.0" cy="122" r="5" fill="#083fa1"/>
 <text x="38.0" y="126" fill="#e6edf3" font-size="13">Markdown</text>
 <text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 8 hrs 18 mins</text>
@@ -102,85 +111,112 @@
 <circle cx="25.0" cy="538" r="5" fill="#89e051"/>
 <text x="38.0" y="542" fill="#e6edf3" font-size="13">Bash</text>
 <text x="260.0" y="542" fill="#8b949e" font-size="12" text-anchor="end">- 25 mins</text>
-<circle cx="25.0" cy="564" r="5" fill="#3572A5"/>
-<text x="38.0" y="568" fill="#e6edf3" font-size="13">Python</text>
-<text x="260.0" y="568" fill="#8b949e" font-size="12" text-anchor="end">- 21 mins</text>
-<circle cx="25.0" cy="590" r="5" fill="#9fdd58"/>
-<text x="38.0" y="594" fill="#e6edf3" font-size="13">Java Properties</text>
-<text x="260.0" y="594" fill="#8b949e" font-size="12" text-anchor="end">- 20 mins</text>
-<circle cx="25.0" cy="616" r="5" fill="#e34c26"/>
-<text x="38.0" y="620" fill="#e6edf3" font-size="13">HTML</text>
+<circle cx="25.0" cy="564" r="5" fill="#bfa9e1"/>
+<text x="38.0" y="568" fill="#e6edf3" font-size="13">textmate</text>
+<text x="260.0" y="568" fill="#8b949e" font-size="12" text-anchor="end">- 22 mins</text>
+<circle cx="25.0" cy="590" r="5" fill="#3572A5"/>
+<text x="38.0" y="594" fill="#e6edf3" font-size="13">Python</text>
+<text x="260.0" y="594" fill="#8b949e" font-size="12" text-anchor="end">- 21 mins</text>
+<circle cx="25.0" cy="616" r="5" fill="#9fdd58"/>
+<text x="38.0" y="620" fill="#e6edf3" font-size="13">Java Properties</text>
 <text x="260.0" y="620" fill="#8b949e" font-size="12" text-anchor="end">- 20 mins</text>
-<circle cx="25.0" cy="642" r="5" fill="#8b949e"/>
-<text x="38.0" y="646" fill="#e6edf3" font-size="13">Text</text>
-<text x="260.0" y="646" fill="#8b949e" font-size="12" text-anchor="end">- 15 mins</text>
-<circle cx="25.0" cy="668" r="5" fill="#555555"/>
-<text x="38.0" y="672" fill="#e6edf3" font-size="13">C</text>
-<text x="260.0" y="672" fill="#8b949e" font-size="12" text-anchor="end">- 8 mins</text>
-<circle cx="285.0" cy="96" r="5" fill="#e38c00"/>
-<text x="298.0" y="100" fill="#e6edf3" font-size="13">SQL</text>
-<text x="520.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 7 mins</text>
-<circle cx="285.0" cy="122" r="5" fill="#427819"/>
-<text x="298.0" y="126" fill="#e6edf3" font-size="13">Makefile</text>
-<text x="520.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 6 mins</text>
-<circle cx="285.0" cy="148" r="5" fill="#16bbc2"/>
-<text x="298.0" y="152" fill="#e6edf3" font-size="13">Slint</text>
-<text x="520.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 4 mins</text>
-<circle cx="285.0" cy="174" r="5" fill="#637ff5"/>
-<text x="298.0" y="178" fill="#e6edf3" font-size="13">Mixin Json Configuration</text>
+<circle cx="25.0" cy="642" r="5" fill="#e34c26"/>
+<text x="38.0" y="646" fill="#e6edf3" font-size="13">HTML</text>
+<text x="260.0" y="646" fill="#8b949e" font-size="12" text-anchor="end">- 20 mins</text>
+<circle cx="25.0" cy="668" r="5" fill="#8b949e"/>
+<text x="38.0" y="672" fill="#e6edf3" font-size="13">Text</text>
+<text x="260.0" y="672" fill="#8b949e" font-size="12" text-anchor="end">- 15 mins</text>
+<circle cx="25.0" cy="694" r="5" fill="#cd5272"/>
+<text x="38.0" y="698" fill="#e6edf3" font-size="13">java</text>
+<text x="260.0" y="698" fill="#8b949e" font-size="12" text-anchor="end">- 14 mins</text>
+<circle cx="25.0" cy="720" r="5" fill="#ce92f8"/>
+<text x="38.0" y="724" fill="#e6edf3" font-size="13">gradle</text>
+<text x="260.0" y="724" fill="#8b949e" font-size="12" text-anchor="end">- 12 mins</text>
+<circle cx="25.0" cy="746" r="5" fill="#555555"/>
+<text x="38.0" y="750" fill="#e6edf3" font-size="13">C</text>
+<text x="260.0" y="750" fill="#8b949e" font-size="12" text-anchor="end">- 8 mins</text>
+<circle cx="25.0" cy="772" r="5" fill="#e38c00"/>
+<text x="38.0" y="776" fill="#e6edf3" font-size="13">SQL</text>
+<text x="260.0" y="776" fill="#8b949e" font-size="12" text-anchor="end">- 7 mins</text>
+<circle cx="285.0" cy="96" r="5" fill="#427819"/>
+<text x="298.0" y="100" fill="#e6edf3" font-size="13">Makefile</text>
+<text x="520.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 6 mins</text>
+<circle cx="285.0" cy="122" r="5" fill="#0d5aa6"/>
+<text x="298.0" y="126" fill="#e6edf3" font-size="13">gitignore file</text>
+<text x="520.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 5 mins</text>
+<circle cx="285.0" cy="148" r="5" fill="#e6c400"/>
+<text x="298.0" y="152" fill="#e6edf3" font-size="13">diff</text>
+<text x="520.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 5 mins</text>
+<circle cx="285.0" cy="174" r="5" fill="#16bbc2"/>
+<text x="298.0" y="178" fill="#e6edf3" font-size="13">Slint</text>
 <text x="520.0" y="178" fill="#8b949e" font-size="12" text-anchor="end">- 4 mins</text>
-<circle cx="285.0" cy="200" r="5" fill="#89e051"/>
-<text x="298.0" y="204" fill="#e6edf3" font-size="13">Shell Script</text>
+<circle cx="285.0" cy="200" r="5" fill="#637ff5"/>
+<text x="298.0" y="204" fill="#e6edf3" font-size="13">Mixin Json Configuration</text>
 <text x="520.0" y="204" fill="#8b949e" font-size="12" text-anchor="end">- 4 mins</text>
-<circle cx="285.0" cy="226" r="5" fill="#850ee1"/>
-<text x="298.0" y="230" fill="#e6edf3" font-size="13">fish</text>
+<circle cx="285.0" cy="226" r="5" fill="#522bc5"/>
+<text x="298.0" y="230" fill="#e6edf3" font-size="13">json</text>
 <text x="520.0" y="230" fill="#8b949e" font-size="12" text-anchor="end">- 4 mins</text>
-<circle cx="285.0" cy="252" r="5" fill="#c22d40"/>
-<text x="298.0" y="256" fill="#e6edf3" font-size="13">Properties</text>
+<circle cx="285.0" cy="252" r="5" fill="#89e051"/>
+<text x="298.0" y="256" fill="#e6edf3" font-size="13">Shell Script</text>
 <text x="520.0" y="256" fill="#8b949e" font-size="12" text-anchor="end">- 4 mins</text>
-<circle cx="285.0" cy="278" r="5" fill="#33eee2"/>
-<text x="298.0" y="282" fill="#e6edf3" font-size="13">IDEA_MODULE</text>
-<text x="520.0" y="282" fill="#8b949e" font-size="12" text-anchor="end">- 3 mins</text>
-<circle cx="285.0" cy="304" r="5" fill="#bfa9e1"/>
-<text x="298.0" y="308" fill="#e6edf3" font-size="13">textmate</text>
-<text x="520.0" y="308" fill="#8b949e" font-size="12" text-anchor="end">- 3 mins</text>
-<circle cx="285.0" cy="330" r="5" fill="#F44D27"/>
-<text x="298.0" y="334" fill="#e6edf3" font-size="13">Git Config</text>
+<circle cx="285.0" cy="278" r="5" fill="#850ee1"/>
+<text x="298.0" y="282" fill="#e6edf3" font-size="13">fish</text>
+<text x="520.0" y="282" fill="#8b949e" font-size="12" text-anchor="end">- 4 mins</text>
+<circle cx="285.0" cy="304" r="5" fill="#c22d40"/>
+<text x="298.0" y="308" fill="#e6edf3" font-size="13">Properties</text>
+<text x="520.0" y="308" fill="#8b949e" font-size="12" text-anchor="end">- 4 mins</text>
+<circle cx="285.0" cy="330" r="5" fill="#33eee2"/>
+<text x="298.0" y="334" fill="#e6edf3" font-size="13">IDEA_MODULE</text>
 <text x="520.0" y="334" fill="#8b949e" font-size="12" text-anchor="end">- 3 mins</text>
-<circle cx="285.0" cy="356" r="5" fill="#21e415"/>
-<text x="298.0" y="360" fill="#e6edf3" font-size="13">CMake</text>
-<text x="520.0" y="360" fill="#8b949e" font-size="12" text-anchor="end">- 2 mins</text>
-<circle cx="285.0" cy="382" r="5" fill="#f1d2c1"/>
-<text x="298.0" y="386" fill="#e6edf3" font-size="13">Desktop file</text>
-<text x="520.0" y="386" fill="#8b949e" font-size="12" text-anchor="end">- 1 min</text>
-<circle cx="285.0" cy="408" r="5" fill="#178600"/>
-<text x="298.0" y="412" fill="#e6edf3" font-size="13">C#</text>
-<text x="520.0" y="412" fill="#8b949e" font-size="12" text-anchor="end">- 1 min</text>
-<circle cx="285.0" cy="434" r="5" fill="#f34b7d"/>
-<text x="298.0" y="438" fill="#e6edf3" font-size="13">C++</text>
-<text x="520.0" y="438" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="460" r="5" fill="#4f0add"/>
-<text x="298.0" y="464" fill="#e6edf3" font-size="13">C/C++</text>
-<text x="520.0" y="464" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="486" r="5" fill="#5b8ee4"/>
-<text x="298.0" y="490" fill="#e6edf3" font-size="13">Batchfile</text>
-<text x="520.0" y="490" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="512" r="5" fill="#8d171a"/>
-<text x="298.0" y="516" fill="#e6edf3" font-size="13">Image (svg)</text>
-<text x="520.0" y="516" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="538" r="5" fill="#96e420"/>
-<text x="298.0" y="542" fill="#e6edf3" font-size="13">TSConfig</text>
-<text x="520.0" y="542" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="564" r="5" fill="#d1dbe0"/>
-<text x="298.0" y="568" fill="#e6edf3" font-size="13">INI</text>
+<circle cx="285.0" cy="356" r="5" fill="#13ba75"/>
+<text x="298.0" y="360" fill="#e6edf3" font-size="13">mixin json configuration</text>
+<text x="520.0" y="360" fill="#8b949e" font-size="12" text-anchor="end">- 3 mins</text>
+<circle cx="285.0" cy="382" r="5" fill="#F44D27"/>
+<text x="298.0" y="386" fill="#e6edf3" font-size="13">Git Config</text>
+<text x="520.0" y="386" fill="#8b949e" font-size="12" text-anchor="end">- 3 mins</text>
+<circle cx="285.0" cy="408" r="5" fill="#21e415"/>
+<text x="298.0" y="412" fill="#e6edf3" font-size="13">CMake</text>
+<text x="520.0" y="412" fill="#8b949e" font-size="12" text-anchor="end">- 2 mins</text>
+<circle cx="285.0" cy="434" r="5" fill="#9b0f99"/>
+<text x="298.0" y="438" fill="#e6edf3" font-size="13">class</text>
+<text x="520.0" y="438" fill="#8b949e" font-size="12" text-anchor="end">- 2 mins</text>
+<circle cx="285.0" cy="460" r="5" fill="#c11ff5"/>
+<text x="298.0" y="464" fill="#e6edf3" font-size="13">properties</text>
+<text x="520.0" y="464" fill="#8b949e" font-size="12" text-anchor="end">- 2 mins</text>
+<circle cx="285.0" cy="486" r="5" fill="#f1d2c1"/>
+<text x="298.0" y="490" fill="#e6edf3" font-size="13">Desktop file</text>
+<text x="520.0" y="490" fill="#8b949e" font-size="12" text-anchor="end">- 1 min</text>
+<circle cx="285.0" cy="512" r="5" fill="#522c93"/>
+<text x="298.0" y="516" fill="#e6edf3" font-size="13">plain_text</text>
+<text x="520.0" y="516" fill="#8b949e" font-size="12" text-anchor="end">- 1 min</text>
+<circle cx="285.0" cy="538" r="5" fill="#178600"/>
+<text x="298.0" y="542" fill="#e6edf3" font-size="13">C#</text>
+<text x="520.0" y="542" fill="#8b949e" font-size="12" text-anchor="end">- 1 min</text>
+<circle cx="285.0" cy="564" r="5" fill="#f34b7d"/>
+<text x="298.0" y="568" fill="#e6edf3" font-size="13">C++</text>
 <text x="520.0" y="568" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="590" r="5" fill="#bff9cf"/>
-<text x="298.0" y="594" fill="#e6edf3" font-size="13">QmlType</text>
+<circle cx="285.0" cy="590" r="5" fill="#4f0add"/>
+<text x="298.0" y="594" fill="#e6edf3" font-size="13">C/C++</text>
 <text x="520.0" y="594" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="616" r="5" fill="#2cf1a1"/>
-<text x="298.0" y="620" fill="#e6edf3" font-size="13">XAML</text>
+<circle cx="285.0" cy="616" r="5" fill="#5b8ee4"/>
+<text x="298.0" y="620" fill="#e6edf3" font-size="13">Batchfile</text>
 <text x="520.0" y="620" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
-<circle cx="285.0" cy="642" r="5" fill="#6E4C13"/>
-<text x="298.0" y="646" fill="#e6edf3" font-size="13">RGBDS Assembly</text>
+<circle cx="285.0" cy="642" r="5" fill="#8d171a"/>
+<text x="298.0" y="646" fill="#e6edf3" font-size="13">Image (svg)</text>
 <text x="520.0" y="646" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
+<circle cx="285.0" cy="668" r="5" fill="#96e420"/>
+<text x="298.0" y="672" fill="#e6edf3" font-size="13">TSConfig</text>
+<text x="520.0" y="672" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
+<circle cx="285.0" cy="694" r="5" fill="#d1dbe0"/>
+<text x="298.0" y="698" fill="#e6edf3" font-size="13">INI</text>
+<text x="520.0" y="698" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
+<circle cx="285.0" cy="720" r="5" fill="#bff9cf"/>
+<text x="298.0" y="724" fill="#e6edf3" font-size="13">QmlType</text>
+<text x="520.0" y="724" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
+<circle cx="285.0" cy="746" r="5" fill="#2cf1a1"/>
+<text x="298.0" y="750" fill="#e6edf3" font-size="13">XAML</text>
+<text x="520.0" y="750" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
+<circle cx="285.0" cy="772" r="5" fill="#6E4C13"/>
+<text x="298.0" y="776" fill="#e6edf3" font-size="13">RGBDS Assembly</text>
+<text x="520.0" y="776" fill="#8b949e" font-size="12" text-anchor="end">- 0 mins</text>
 </svg>
