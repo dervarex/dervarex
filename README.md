@@ -1,4 +1,4 @@
-![Profile Card](https://cdn.jsdelivr.net/gh/dervarex/dervarex@2c7f24eac5a7610e678352e254d9227562141306/assets/profile-card.svg)
+![Profile Card](https://cdn.jsdelivr.net/gh/dervarex/dervarex@main/assets/profile-card.svg?v=fe67ab542d)
 
 ---
 
@@ -13,7 +13,7 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 ### Tech & Tools
 
-![Ziit Stats](./assets/ziit-stats.svg?v=1789921131)
+![Ziit Stats](https://cdn.jsdelivr.net/gh/dervarex/dervarex@main/assets/ziit-stats.svg?v=c1f43ea84b)
 
 ---
 
