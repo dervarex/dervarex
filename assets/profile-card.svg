@@ -1,10 +1,13 @@
 <svg width="800" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/>
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
     <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#58a6ff"/><stop offset="50%" stop-color="#bc8cff"/><stop offset="100%" stop-color="#58a6ff"/>
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
     </linearGradient>
     <radialGradient id="glow" cx="50%" cy="0%" r="70%">
       <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.18"/>
@@ -24,22 +27,28 @@
     .extra-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #58a6ff; }
     .divider { stroke: #30363d; stroke-width: 1; }
   </style>
+
+  <!-- background -->
   <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5"/>
-  <rect width="800" height="3" rx="1.5" fill="url(#accentGrad)"/>
+
+  <!-- soft glow behind the title -->
   <rect width="800" height="120" fill="url(#glow)"/>
 
+  <!-- title -->
   <text x="400" y="48" text-anchor="middle" class="title fade-in">Hey, I'm dervarex</text>
   <text x="400" y="72" text-anchor="middle" class="subtitle fade-in">Developer from Germany</text>
 
+  <!-- separator -->
   <line x1="60" y1="90" x2="740" y2="90" class="divider fade-in"/>
 
+  <!-- left column -->
   <g class="fade-in-up">
     <text x="100" y="120" class="stat-label">Total Stars Earned:</text>
     <text x="300" y="120" class="stat-value">1</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">332</text>
+    <text x="300" y="150" class="stat-value">335</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
@@ -47,9 +56,10 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">328</text>
+    <text x="300" y="210" class="stat-value">330</text>
   </g>
 
+  <!-- right column -->
   <g class="fade-in-up">
     <text x="450" y="120" class="extra-label">Currently working on:</text>
     <text x="450" y="140" class="extra-value">Minified</text>
