@@ -142,7 +142,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">364</text>
+    <text x="300" y="150" class="stat-value">366</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
@@ -150,7 +150,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">359</text>
+    <text x="300" y="210" class="stat-value">361</text>
   </g>
 
   <!-- right column -->
