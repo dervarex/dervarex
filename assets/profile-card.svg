@@ -1,35 +1,21 @@
 <svg width="800" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- background gradient -->
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a1018"/>
-      <stop offset="70%" stop-color="#101c2a"/>
-      <stop offset="100%" stop-color="#1a2c40"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1420"/>
+      <stop offset="100%" stop-color="#102336"/>
     </linearGradient>
 
-    <!-- soft blue glow behind the title -->
-    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
-      <stop offset="0%" stop-color="#8ecae6" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#8ecae6" stop-opacity="0"/>
+    <!-- sun -->
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffd166" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- moon -->
-    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f0f6fc" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#8ecae6" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- snowflake shape -->
-    <g id="snowflake" stroke-linecap="round">
-      <line x1="0" y1="-4" x2="0" y2="4"/>
-      <line x1="-3.5" y1="-2" x2="3.5" y2="2"/>
-      <line x1="-3.5" y1="2" x2="3.5" y2="-2"/>
-    </g>
-
-    <!-- snow ground gradient -->
-    <linearGradient id="snowGround" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e6f2fa" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#8ecae6" stop-opacity="0.4"/>
+    <!-- ocean horizon gradient at the bottom -->
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06d6a0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#118ab2" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
 
@@ -40,90 +26,69 @@
     .fade-in { animation: fadeIn 0.9s ease-out forwards; opacity: 0; }
     .fade-in-up { animation: fadeInUp 0.9s ease-out forwards; opacity: 0; }
 
+    /* slow rotation for the sun rays */
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .rays { animation: spin 60s linear infinite; transform-origin: 720px 40px; }
+
     /* typography */
-    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #c9e4f0; font-weight: 700; letter-spacing: -0.5px; }
-    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8fa9ba; letter-spacing: 0.5px; }
-    .stat-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8fa9ba; }
-    .stat-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8ecae6; font-weight: 700; }
-    .extra-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #8fa9ba; }
-    .extra-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #8ecae6; }
-    .divider { stroke: #1c2c3c; stroke-width: 1; }
+    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #ffd166; font-weight: 700; letter-spacing: -0.5px; }
+    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8fb8c9; letter-spacing: 0.5px; }
+    .stat-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8fb8c9; }
+    .stat-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #06d6a0; font-weight: 700; }
+    .extra-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #8fb8c9; }
+    .extra-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #06d6a0; }
+    .divider { stroke: #1b3a4f; stroke-width: 1; }
   </style>
 
   <!-- card background -->
-  <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#8ecae6" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#118ab2" stroke-opacity="0.4" stroke-width="1.5"/>
 
-  <!-- glow overlay -->
-  <rect width="800" height="120" fill="url(#glow)"/>
+    <!-- sea -->
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06d6a0" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#118ab2" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#073b4c" stop-opacity="0.9"/>
+    </linearGradient>
 
-  <!-- moon top right -->
-  <circle cx="720" cy="50" r="42" fill="url(#moon)" opacity="0.7"/>
-  <circle cx="720" cy="50" r="18" fill="#f0f6fc" opacity="0.9"/>
-  <circle cx="715" cy="46" r="3" fill="#c9e4f0" opacity="0.5"/>
-  <circle cx="726" cy="54" r="2.2" fill="#c9e4f0" opacity="0.4"/>
+    <!-- sun reflection on the water -->
+    <linearGradient id="reflection" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffd166" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
 
-  <!-- small stars -->
-  <circle cx="80"  cy="28" r="1" fill="#c9e4f0" opacity="0.7"/>
-  <circle cx="180" cy="20" r="0.8" fill="#c9e4f0" opacity="0.5"/>
-  <circle cx="300" cy="30" r="1" fill="#c9e4f0" opacity="0.6"/>
-  <circle cx="420" cy="22" r="0.8" fill="#c9e4f0" opacity="0.5"/>
-  <circle cx="540" cy="32" r="1.1" fill="#c9e4f0" opacity="0.6"/>
-  <circle cx="640" cy="18" r="0.8" fill="#c9e4f0" opacity="0.4"/>
-  <circle cx="760" cy="110" r="0.9" fill="#c9e4f0" opacity="0.5"/>
+  <!-- back wave -->
+  <path d="M0,215 Q40,207 80,215 T160,215 T240,215 T320,215 T400,215 T480,215 T560,215 T640,215 T720,215 T800,215 L800,240 L0,240 Z" fill="url(#sea)" opacity="0.7"/>
 
-  <!-- snowflakes -->
-  <g stroke="#e6f2fa" stroke-width="0.9" fill="none">
-    <use href="#snowflake" opacity="0.7" transform="translate(60 55)"/>
-    <use href="#snowflake" opacity="0.5" transform="translate(150 90) scale(0.8)"/>
-    <use href="#snowflake" opacity="0.6" transform="translate(240 40) scale(1.1)"/>
-    <use href="#snowflake" opacity="0.45" transform="translate(340 70)"/>
-    <use href="#snowflake" opacity="0.7" transform="translate(420 95) scale(0.9)"/>
-    <use href="#snowflake" opacity="0.55" transform="translate(500 45) scale(1.2)"/>
-    <use href="#snowflake" opacity="0.4" transform="translate(580 80) scale(0.85)"/>
-    <use href="#snowflake" opacity="0.6" transform="translate(660 60) scale(1)"/>
-    <use href="#snowflake" opacity="0.5" transform="translate(100 130) scale(0.9)"/>
-    <use href="#snowflake" opacity="0.45" transform="translate(300 140) scale(0.8)"/>
-    <use href="#snowflake" opacity="0.5" transform="translate(520 130) scale(1)"/>
-    <use href="#snowflake" opacity="0.55" transform="translate(740 140) scale(0.9)"/>
+  <!-- middle wave -->
+  <path d="M0,222 Q40,216 80,222 T160,222 T240,222 T320,222 T400,222 T480,222 T560,222 T640,222 T720,222 T800,222 L800,240 L0,240 Z" fill="#118ab2" opacity="0.55"/>
+
+  <!-- front wave -->
+  <path d="M0,229 Q40,224 80,229 T160,229 T240,229 T320,229 T400,229 T480,229 T560,229 T640,229 T720,229 T800,229 L800,240 L0,240 Z" fill="#073b4c" opacity="0.75"/>
+
+  <!-- sun rays  -->
+  <g class="rays">
+    <line x1="720" y1="10"  x2="720" y2="70"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
+    <line x1="690" y1="40"  x2="750" y2="40"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
+    <line x1="699" y1="19"  x2="741" y2="61"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
+    <line x1="699" y1="61"  x2="741" y2="19"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
   </g>
 
-  <!-- tiny snow dots-->
-  <g fill="#e6f2fa">
-    <circle cx="200" cy="60" r="1" opacity="0.5"/>
-    <circle cx="380" cy="50" r="0.8" opacity="0.45"/>
-    <circle cx="470" cy="80" r="1" opacity="0.5"/>
-    <circle cx="620" cy="90" r="0.8" opacity="0.4"/>
-    <circle cx="80"  cy="105" r="1" opacity="0.45"/>
-    <circle cx="700" cy="120" r="0.9" opacity="0.4"/>
-  </g>
+  <!-- sun -->
+  <circle cx="720" cy="40" r="14" fill="#ffd166" opacity="0.9"/>
+  <circle cx="720" cy="40" r="26" fill="url(#sun)"/>
 
-  <!-- snow covered hills -->
-  <path d="M0,220 Q100,208 200,216 T400,212 T600,218 T800,210 L800,240 L0,240 Z"
-        fill="url(#snowGround)" opacity="0.55"/>
-  <path d="M0,232 Q120,224 240,230 T480,228 T720,230 L800,228 L800,240 L0,240 Z"
-        fill="#e6f2fa" opacity="0.75"/>
+  <!-- small birds -->
+  <path d="M140,60 Q145,55 150,60 Q155,55 160,60" stroke="#8fb8c9" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <path d="M200,80 Q204,76 208,80 Q212,76 216,80" stroke="#8fb8c9" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M90,90 Q94,86 98,90 Q102,86 106,90" stroke="#8fb8c9" stroke-width="1" fill="none" opacity="0.4"/>
 
-  <!-- snowman -->
-  <g transform="translate(660 218)">
-    <!-- bottom ball -->
-    <circle cx="0" cy="0" r="9" fill="#f0f6fc"/>
-    <!-- middle ball -->
-    <circle cx="0" cy="-9" r="7" fill="#f0f6fc"/>
-    <!-- head -->
-    <circle cx="0" cy="-18" r="5" fill="#f0f6fc"/>
-    <!-- eyes -->
-    <circle cx="-1.8" cy="-19" r="0.7" fill="#0a1018"/>
-    <circle cx="1.8"  cy="-19" r="0.7" fill="#0a1018"/>
-    <!-- carrot nose -->
-    <path d="M0,-18 L4,-17.3 L0,-16.5 Z" fill="#f0883e"/>
-    <!-- not letting him freeze here -->
-    <rect x="-5" y="-14" width="10" height="2" rx="1" fill="#ff7b5a"/>
-    <!-- buttons -->
-    <circle cx="0" cy="-9" r="0.6" fill="#0a1018"/>
-    <circle cx="0" cy="-5" r="0.6" fill="#0a1018"/>
-    <!-- arms (sticks) -->
-    <line x1="-7" y1="-9" x2="-13" y2="-13" stroke="#5a3a22" stroke-width="1.2" stroke-linecap="round"/>
-    <line x1="7"  y1="-9" x2="13"  y2="-13" stroke="#5a3a22" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- palm leaf in the top left corner -->
+  <g opacity="0.55">
+    <path d="M0,0 Q40,10 70,40 Q50,42 20,30 Q30,20 0,0" fill="#06d6a0"/>
+    <path d="M0,0 Q20,30 40,70 Q20,60 0,40 Z" fill="#118ab2"/>
+    <path d="M0,0 Q50,0 90,10 Q70,20 40,18 Q20,10 0,0" fill="#06d6a0"/>
   </g>
 
   <!-- header -->
@@ -140,7 +105,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">351</text>
+    <text x="300" y="150" class="stat-value">352</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
@@ -148,7 +113,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">346</text>
+    <text x="300" y="210" class="stat-value">348</text>
   </g>
 
   <!-- right column -->
