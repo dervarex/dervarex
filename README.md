@@ -21,10 +21,7 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 This is the one I'm currently focusing on:
 
-<div align="left">                                                                                                                          
-<a href="https://github.com/dervarex/minified">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=dervarex&repo=minified&theme=blue_navy&show_icons=true&update=6&dark_bg=3" />
-</a>
+![Minified](./assets/minified-card.svg)
 
 ---
 
