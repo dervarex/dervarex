@@ -2,29 +2,29 @@
 <rect width="560" height="822" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="341.85" height="8" fill="#b07219"/>
-<rect x="361.85" y="58" width="34.45" height="8" fill="#083fa1"/>
-<rect x="396.30" y="58" width="26.47" height="8" fill="#3178c6"/>
-<rect x="422.76" y="58" width="21.37" height="8" fill="#55171f"/>
-<rect x="444.13" y="58" width="19.90" height="8" fill="#dea584"/>
-<rect x="464.02" y="58" width="7.83" height="8" fill="#A97BFF"/>
-<rect x="471.86" y="58" width="6.93" height="8" fill="#cd5272"/>
-<rect x="478.79" y="58" width="6.62" height="8" fill="#02303a"/>
-<rect x="485.41" y="58" width="6.02" height="8" fill="#0060ac"/>
-<rect x="491.43" y="58" width="5.97" height="8" fill="#fcb32c"/>
-<rect x="497.40" y="58" width="5.72" height="8" fill="#4298b8"/>
-<rect x="503.12" y="58" width="3.77" height="8" fill="#6e7681"/>
-<rect x="506.88" y="58" width="3.56" height="8" fill="#563d7c"/>
-<rect x="510.45" y="58" width="3.37" height="8" fill="#cb171e"/>
-<rect x="513.81" y="58" width="2.83" height="8" fill="#614c06"/>
-<rect x="516.64" y="58" width="2.54" height="8" fill="#f9bf65"/>
-<rect x="519.18" y="58" width="2.52" height="8" fill="#9c4221"/>
-<rect x="521.70" y="58" width="2.47" height="8" fill="#f1e05a"/>
+<rect x="20.00" y="58" width="341.78" height="8" fill="#b07219"/>
+<rect x="361.78" y="58" width="34.46" height="8" fill="#083fa1"/>
+<rect x="396.24" y="58" width="26.48" height="8" fill="#3178c6"/>
+<rect x="422.72" y="58" width="21.37" height="8" fill="#55171f"/>
+<rect x="444.09" y="58" width="19.90" height="8" fill="#dea584"/>
+<rect x="463.99" y="58" width="7.84" height="8" fill="#A97BFF"/>
+<rect x="471.83" y="58" width="6.93" height="8" fill="#cd5272"/>
+<rect x="478.76" y="58" width="6.62" height="8" fill="#02303a"/>
+<rect x="485.39" y="58" width="6.03" height="8" fill="#0060ac"/>
+<rect x="491.41" y="58" width="5.97" height="8" fill="#fcb32c"/>
+<rect x="497.38" y="58" width="5.72" height="8" fill="#4298b8"/>
+<rect x="503.10" y="58" width="3.77" height="8" fill="#6e7681"/>
+<rect x="506.87" y="58" width="3.56" height="8" fill="#563d7c"/>
+<rect x="510.43" y="58" width="3.37" height="8" fill="#cb171e"/>
+<rect x="513.80" y="58" width="2.83" height="8" fill="#614c06"/>
+<rect x="516.63" y="58" width="2.54" height="8" fill="#f9bf65"/>
+<rect x="519.17" y="58" width="2.52" height="8" fill="#9c4221"/>
+<rect x="521.69" y="58" width="2.47" height="8" fill="#f1e05a"/>
 <rect x="524.17" y="58" width="1.78" height="8" fill="#89e051"/>
 <rect x="525.95" y="58" width="1.67" height="8" fill="#bfa9e1"/>
-<rect x="527.62" y="58" width="1.46" height="8" fill="#3572A5"/>
+<rect x="527.61" y="58" width="1.46" height="8" fill="#3572A5"/>
 <rect x="529.08" y="58" width="1.42" height="8" fill="#9fdd58"/>
-<rect x="530.50" y="58" width="1.41" height="8" fill="#e34c26"/>
+<rect x="530.49" y="58" width="1.41" height="8" fill="#e34c26"/>
 <rect x="531.91" y="58" width="1.07" height="8" fill="#8b949e"/>
 <rect x="532.98" y="58" width="0.91" height="8" fill="#ce92f8"/>
 <rect x="533.89" y="58" width="0.58" height="8" fill="#555555"/>
@@ -35,7 +35,7 @@
 <rect x="536.29" y="58" width="0.34" height="8" fill="#16bbc2"/>
 <rect x="536.64" y="58" width="0.33" height="8" fill="#637ff5"/>
 <rect x="536.96" y="58" width="0.32" height="8" fill="#522bc5"/>
-<rect x="537.29" y="58" width="0.31" height="8" fill="#89e051"/>
+<rect x="537.28" y="58" width="0.31" height="8" fill="#89e051"/>
 <rect x="537.60" y="58" width="0.30" height="8" fill="#850ee1"/>
 <rect x="537.90" y="58" width="0.29" height="8" fill="#c22d40"/>
 <rect x="538.19" y="58" width="0.28" height="8" fill="#13ba75"/>
@@ -59,7 +59,7 @@
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
-<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 82 hrs 22 mins</text>
+<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 82 hrs 19 mins</text>
 <circle cx="25.0" cy="122" r="5" fill="#083fa1"/>
 <text x="38.0" y="126" fill="#e6edf3" font-size="13">Markdown</text>
 <text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 8 hrs 18 mins</text>
