@@ -1,19 +1,20 @@
 <svg width="800" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- background gradient -->
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
-    </radialGradient>
   </defs>
+
   <style>
+    /* entry animations */
     @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     @keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
     .fade-in { animation: fadeIn 0.9s ease-out forwards; opacity: 0; }
     .fade-in-up { animation: fadeInUp 0.9s ease-out forwards; opacity: 0; }
+
+    /* typography */
     .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #58a6ff; font-weight: 700; letter-spacing: -0.5px; }
     .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8b949e; letter-spacing: 0.5px; }
     .stat-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8b949e; }
@@ -23,21 +24,24 @@
     .divider { stroke: #30363d; stroke-width: 1; }
   </style>
 
+  <!-- card background -->
   <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5"/>
-  <rect width="800" height="120" fill="url(#glow)"/>
 
+  <!-- header -->
   <text x="400" y="48" text-anchor="middle" class="title fade-in">Hey, I'm dervarex</text>
   <text x="400" y="72" text-anchor="middle" class="subtitle fade-in">Developer from Germany</text>
 
+  <!-- separator -->
   <line x1="60" y1="90" x2="740" y2="90" class="divider fade-in"/>
 
+  <!-- left column -->
   <g class="fade-in-up">
     <text x="100" y="120" class="stat-label">Total Stars Earned:</text>
     <text x="300" y="120" class="stat-value">1</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">344</text>
+    <text x="300" y="150" class="stat-value">346</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
@@ -45,9 +49,10 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">339</text>
+    <text x="300" y="210" class="stat-value">341</text>
   </g>
 
+  <!-- right column -->
   <g class="fade-in-up">
     <text x="450" y="120" class="extra-label">Currently working on:</text>
     <text x="450" y="140" class="extra-value">Minified</text>
