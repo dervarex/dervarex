@@ -1,4 +1,4 @@
-![Profile Card](./assets/profile-card.svg?v=1789920004)
+![Profile Card](./assets/profile-card.svg?v=1789920919)
 
 ---
 
@@ -13,7 +13,7 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 ### Tech & Tools
 
-![Ziit Stats](./assets/ziit-stats.svg?v=1789920004)
+![Ziit Stats](./assets/ziit-stats.svg?v=1789920919)
 
 ---
 
@@ -21,7 +21,7 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 This is the one I'm currently focusing on:
 
-![Minified](./assets/minified-card.svg?v=1789920004)
+![Minified](./assets/minified-card.svg?v=1789920919)
 
 ---
 
