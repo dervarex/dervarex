@@ -1,4 +1,4 @@
-![Profile Card](https://cdn.jsdelivr.net/gh/dervarex/dervarex@f914b8f67540c0f8c812805a3524ca44e4f1ae66/assets/profile-card.svg)
+![Profile Card](https://cdn.jsdelivr.net/gh/dervarex/dervarex@b7a4dfe5bbd796a7efc636ae86be2e85a2dab21c/assets/profile-card.svg)
 
 ---
 
