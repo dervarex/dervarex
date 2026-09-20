@@ -25,15 +25,6 @@ This is the one I'm currently focusing on:
 
 ---
 
-### GitHub Stats
-
-<a href="https://github.com/dervarex" align="left">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/top-langs/?username=dervarex&theme=blue_navy&show_icons=true&layout=normal&update=7&dark_bg=3" />
-</a>
-
-
----
-
 ### Find Me Around the Web
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/1260289208560652359)](https://discord.com/users/1260289208560652359)
