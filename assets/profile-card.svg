@@ -2,21 +2,18 @@
   <defs>
     <!-- background gradient -->
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a1420"/>
-      <stop offset="100%" stop-color="#102336"/>
+      <stop offset="0%" stop-color="#1a1008"/>
+      <stop offset="100%" stop-color="#28180f"/>
     </linearGradient>
 
-    <!-- sun -->
-    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#ffd166" stop-opacity="0"/>
+    <!-- tiny warm glow behind the title -->
+    <radialGradient id="glow" cx="30%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#e07a3f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#e07a3f" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- ocean horizon gradient at the bottom -->
-    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#06d6a0" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#118ab2" stop-opacity="0.35"/>
-    </linearGradient>
+    <!-- leaf shape -->
+    <path id="leaf" d="M0,-6 C4,-4 6,0 4,4 C2,6 -2,6 -4,4 C-6,0 -4,-4 0,-6 Z" />
   </defs>
 
   <style>
@@ -26,70 +23,29 @@
     .fade-in { animation: fadeIn 0.9s ease-out forwards; opacity: 0; }
     .fade-in-up { animation: fadeInUp 0.9s ease-out forwards; opacity: 0; }
 
-    /* slow rotation for the sun rays */
-    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    .rays { animation: spin 60s linear infinite; transform-origin: 720px 40px; }
-
     /* typography */
-    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #ffd166; font-weight: 700; letter-spacing: -0.5px; }
-    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8fb8c9; letter-spacing: 0.5px; }
-    .stat-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8fb8c9; }
-    .stat-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #06d6a0; font-weight: 700; }
-    .extra-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #8fb8c9; }
-    .extra-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #06d6a0; }
-    .divider { stroke: #1b3a4f; stroke-width: 1; }
+    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #e8945a; font-weight: 700; letter-spacing: -0.5px; }
+    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #c9a789; letter-spacing: 0.5px; }
+    .stat-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #c9a789; }
+    .stat-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #d4a24c; font-weight: 700; }
+    .extra-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #c9a789; }
+    .extra-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #d4a24c; }
+    .divider { stroke: #3a2410; stroke-width: 1; }
   </style>
 
   <!-- card background -->
-  <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#118ab2" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#a0522d" stroke-opacity="0.4" stroke-width="1.5"/>
 
-    <!-- sea -->
-  <defs>
-    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#06d6a0" stop-opacity="0.55"/>
-      <stop offset="50%" stop-color="#118ab2" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#073b4c" stop-opacity="0.9"/>
-    </linearGradient>
+  <!-- glow overlay -->
+  <rect width="800" height="120" fill="url(#glow)"/>
 
-    <!-- sun reflection on the water -->
-    <linearGradient id="reflection" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#ffd166" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-
-  <!-- back wave -->
-  <path d="M0,215 Q40,207 80,215 T160,215 T240,215 T320,215 T400,215 T480,215 T560,215 T640,215 T720,215 T800,215 L800,240 L0,240 Z" fill="url(#sea)" opacity="0.7"/>
-
-  <!-- middle wave -->
-  <path d="M0,222 Q40,216 80,222 T160,222 T240,222 T320,222 T400,222 T480,222 T560,222 T640,222 T720,222 T800,222 L800,240 L0,240 Z" fill="#118ab2" opacity="0.55"/>
-
-  <!-- front wave -->
-  <path d="M0,229 Q40,224 80,229 T160,229 T240,229 T320,229 T400,229 T480,229 T560,229 T640,229 T720,229 T800,229 L800,240 L0,240 Z" fill="#073b4c" opacity="0.75"/>
-
-  <!-- sun rays  -->
-  <g class="rays">
-    <line x1="720" y1="10"  x2="720" y2="70"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
-    <line x1="690" y1="40"  x2="750" y2="40"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
-    <line x1="699" y1="19"  x2="741" y2="61"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
-    <line x1="699" y1="61"  x2="741" y2="19"  stroke="#ffd166" stroke-width="1.2" opacity="0.35"/>
-  </g>
-
-  <!-- sun -->
-  <circle cx="720" cy="40" r="14" fill="#ffd166" opacity="0.9"/>
-  <circle cx="720" cy="40" r="26" fill="url(#sun)"/>
-
-  <!-- small birds -->
-  <path d="M140,60 Q145,55 150,60 Q155,55 160,60" stroke="#8fb8c9" stroke-width="1.2" fill="none" opacity="0.6"/>
-  <path d="M200,80 Q204,76 208,80 Q212,76 216,80" stroke="#8fb8c9" stroke-width="1" fill="none" opacity="0.5"/>
-  <path d="M90,90 Q94,86 98,90 Q102,86 106,90" stroke="#8fb8c9" stroke-width="1" fill="none" opacity="0.4"/>
-
-  <!-- palm leaf in the top left corner -->
-  <g opacity="0.55">
-    <path d="M0,0 Q40,10 70,40 Q50,42 20,30 Q30,20 0,0" fill="#06d6a0"/>
-    <path d="M0,0 Q20,30 40,70 Q20,60 0,40 Z" fill="#118ab2"/>
-    <path d="M0,0 Q50,0 90,10 Q70,20 40,18 Q20,10 0,0" fill="#06d6a0"/>
-  </g>
+  <!-- scattered leaves -->
+  <use href="#leaf" fill="#e07a3f" opacity="0.7" transform="translate(120 46) rotate(20)"/>
+  <use href="#leaf" fill="#d4a24c" opacity="0.6" transform="translate(300 34) rotate(-30) scale(1.1)"/>
+  <use href="#leaf" fill="#a0522d" opacity="0.6" transform="translate(500 50) rotate(40) scale(0.9)"/>
+  <use href="#leaf" fill="#e07a3f" opacity="0.5" transform="translate(680 38) rotate(-15) scale(1.2)"/>
+  <use href="#leaf" fill="#d4a24c" opacity="0.5" transform="translate(220 62) rotate(60) scale(0.8)"/>
+  <use href="#leaf" fill="#a0522d" opacity="0.5" transform="translate(580 70) rotate(-45)"/>
 
   <!-- header -->
   <text x="400" y="48" text-anchor="middle" class="title fade-in">Hey, I'm dervarex</text>
@@ -105,7 +61,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">354</text>
+    <text x="300" y="150" class="stat-value">356</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
@@ -113,7 +69,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">349</text>
+    <text x="300" y="210" class="stat-value">351</text>
   </g>
 
   <!-- right column -->
