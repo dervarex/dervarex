@@ -32,7 +32,7 @@
   <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5"/>
 
   <!-- soft glow behind the title -->
-  <rect width="800" height="120" fill="url(#glow)"/>
+  <!--<rect width="800" height="120" fill="url(#glow)"/> -->
 
   <!-- title -->
   <text x="400" y="48" text-anchor="middle" class="title fade-in">Hey, I'm dervarex</text>
@@ -48,7 +48,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">338</text>
+    <text x="300" y="150" class="stat-value">340</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
@@ -56,7 +56,7 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">333</text>
+    <text x="300" y="210" class="stat-value">335</text>
   </g>
 
   <!-- right column -->
