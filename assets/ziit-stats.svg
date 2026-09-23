@@ -2,12 +2,12 @@
 <rect width="560" height="198" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="382.56" height="8" fill="#b07219"/>
-<rect x="402.56" y="58" width="38.60" height="8" fill="#083fa1"/>
-<rect x="441.16" y="58" width="29.65" height="8" fill="#3178c6"/>
-<rect x="470.81" y="58" width="23.94" height="8" fill="#55171f"/>
-<rect x="494.75" y="58" width="22.96" height="8" fill="#cd5272"/>
-<rect x="517.71" y="58" width="22.29" height="8" fill="#dea584"/>
+<rect x="20.00" y="58" width="383.10" height="8" fill="#b07219"/>
+<rect x="403.10" y="58" width="38.65" height="8" fill="#083fa1"/>
+<rect x="441.76" y="58" width="29.69" height="8" fill="#3178c6"/>
+<rect x="471.45" y="58" width="23.97" height="8" fill="#55171f"/>
+<rect x="495.42" y="58" width="22.32" height="8" fill="#dea584"/>
+<rect x="517.75" y="58" width="22.25" height="8" fill="#cd5272"/>
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
@@ -21,10 +21,10 @@
 <circle cx="285.0" cy="96" r="5" fill="#55171f"/>
 <text x="298.0" y="100" fill="#e6edf3" font-size="13">QML</text>
 <text x="520.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 5 hrs 8 mins</text>
-<circle cx="285.0" cy="122" r="5" fill="#cd5272"/>
-<text x="298.0" y="126" fill="#e6edf3" font-size="13">java</text>
-<text x="520.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 4 hrs 56 mins</text>
-<circle cx="285.0" cy="148" r="5" fill="#dea584"/>
-<text x="298.0" y="152" fill="#e6edf3" font-size="13">Rust</text>
-<text x="520.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 4 hrs 47 mins</text>
+<circle cx="285.0" cy="122" r="5" fill="#dea584"/>
+<text x="298.0" y="126" fill="#e6edf3" font-size="13">Rust</text>
+<text x="520.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 4 hrs 47 mins</text>
+<circle cx="285.0" cy="148" r="5" fill="#cd5272"/>
+<text x="298.0" y="152" fill="#e6edf3" font-size="13">java</text>
+<text x="520.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 4 hrs 46 mins</text>
 </svg>
