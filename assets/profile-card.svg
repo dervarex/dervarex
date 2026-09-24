@@ -1,9 +1,34 @@
 <svg width="800" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- background gradient -->
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e0612"/>
+      <stop offset="40%" stop-color="#1a0e14"/>
+      <stop offset="75%" stop-color="#3a1420"/>
+      <stop offset="100%" stop-color="#5a1e2a"/>
+    </linearGradient>
+
+    <!-- sun -->
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe0b8" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffb199" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff4d8a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- horizon glow -->
+    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff7b5a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffb199" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <!-- hill gradients -->
+    <linearGradient id="hillBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1420"/>
+      <stop offset="100%" stop-color="#1a0a12"/>
+    </linearGradient>
+    <linearGradient id="hillFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
     </linearGradient>
   </defs>
 
@@ -15,17 +40,55 @@
     .fade-in-up { animation: fadeInUp 0.9s ease-out forwards; opacity: 0; }
 
     /* typography */
-    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #58a6ff; font-weight: 700; letter-spacing: -0.5px; }
-    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8b949e; letter-spacing: 0.5px; }
-    .stat-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #8b949e; }
-    .stat-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #58a6ff; font-weight: 700; }
-    .extra-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #8b949e; }
-    .extra-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #58a6ff; }
-    .divider { stroke: #30363d; stroke-width: 1; }
+    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #ffb199; font-weight: 700; letter-spacing: -0.5px; }
+    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #c9a1a1; letter-spacing: 0.5px; }
+    .stat-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #c9a1a1; }
+    .stat-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #ffb199; font-weight: 700; }
+    .extra-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #c9a1a1; }
+    .extra-value { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #ffb199; }
+    .divider { stroke: #3a1a26; stroke-width: 1; }
   </style>
 
   <!-- card background -->
-  <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="800" height="240" rx="14" fill="url(#bgGrad)" stroke="#ff7b5a" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- sunset sun -->
+  <circle cx="700" cy="70" r="70" fill="url(#sun)" opacity="0.7"/>
+  <circle cx="700" cy="70" r="38" fill="url(#sun)"/>
+  <circle cx="700" cy="70" r="18" fill="#ffe0b8" opacity="0.95"/>
+
+  <!-- fake clouds, look like real ones because they're layered them here -->
+  <g opacity="0.5">
+    <ellipse cx="180" cy="36" rx="90" ry="4" fill="#ff7b5a"/>
+    <ellipse cx="150" cy="32" rx="55" ry="3" fill="#ffb199"/>
+    <ellipse cx="240" cy="40" rx="40" ry="2.5" fill="#ffb199"/>
+  </g>
+  <g opacity="0.4">
+    <ellipse cx="480" cy="28" rx="110" ry="4" fill="#ff7b5a"/>
+    <ellipse cx="450" cy="24" rx="70" ry="3" fill="#ffb199"/>
+    <ellipse cx="560" cy="32" rx="50" ry="2.5" fill="#ffb199"/>
+  </g>
+  <g opacity="0.35">
+    <ellipse cx="120" cy="86" rx="100" ry="3.5" fill="#ff7b5a"/>
+    <ellipse cx="320" cy="90" rx="80" ry="3" fill="#ffb199"/>
+  </g>
+
+  <!-- birds -->
+  <path d="M140,66 Q146,60 152,66 Q158,60 164,66" stroke="#c9a1a1" stroke-width="1.2" fill="none" opacity="0.65"/>
+  <path d="M190,84 Q195,79 200,84 Q205,79 210,84" stroke="#c9a1a1" stroke-width="1.1" fill="none" opacity="0.55"/>
+  <path d="M110,52 Q114,48 118,52 Q122,48 126,52" stroke="#c9a1a1" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M235,64 Q239,60 243,64 Q247,60 251,64" stroke="#c9a1a1" stroke-width="1" fill="none" opacity="0.45"/>
+
+  <!-- horizon glow -->
+  <rect x="0" y="180" width="800" height="60" fill="url(#horizon)"/>
+
+  <!-- back hills -->
+  <path d="M0,215 Q80,198 160,206 T320,202 T480,208 T640,200 T800,210 L800,240 L0,240 Z"
+        fill="url(#hillBack)" opacity="0.95"/>
+
+  <!-- front hills -->
+  <path d="M0,228 Q100,218 200,224 T400,220 T600,226 T800,222 L800,240 L0,240 Z"
+        fill="url(#hillFront)"/>
 
   <!-- header -->
   <text x="400" y="48" text-anchor="middle" class="title fade-in">Hey, I'm dervarex</text>
@@ -41,15 +104,15 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">388</text>
+    <text x="300" y="150" class="stat-value">393</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
-    <text x="300" y="180" class="stat-value">130h</text>
+    <text x="300" y="180" class="stat-value">133h</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">383</text>
+    <text x="300" y="210" class="stat-value">388</text>
   </g>
 
   <!-- right column -->
