@@ -2,12 +2,12 @@
 <rect width="560" height="198" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="375.77" height="8" fill="#b07219"/>
-<rect x="395.77" y="58" width="37.91" height="8" fill="#083fa1"/>
-<rect x="433.69" y="58" width="31.78" height="8" fill="#cd5272"/>
-<rect x="465.46" y="58" width="29.13" height="8" fill="#3178c6"/>
+<rect x="20.00" y="58" width="375.75" height="8" fill="#b07219"/>
+<rect x="395.75" y="58" width="37.91" height="8" fill="#083fa1"/>
+<rect x="433.66" y="58" width="31.81" height="8" fill="#cd5272"/>
+<rect x="465.47" y="58" width="29.12" height="8" fill="#3178c6"/>
 <rect x="494.59" y="58" width="23.51" height="8" fill="#55171f"/>
-<rect x="518.10" y="58" width="21.90" height="8" fill="#dea584"/>
+<rect x="518.11" y="58" width="21.89" height="8" fill="#dea584"/>
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
