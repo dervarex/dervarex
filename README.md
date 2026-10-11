@@ -30,3 +30,9 @@ This is the one I'm currently focusing on:
 [![Discord Presence](https://lanyard.cnrad.dev/api/1260289208560652359)](https://discord.com/users/1260289208560652359)
 
 ---
+
+
+> **Note:** The automated commits in this repo are not contribution farming
+> They exist because the stats updater and the time-based card renderer run on
+> my own server, and I didn't want that server exposed publicly just so I have
+> a cool README. So the cards are rendered locally and pushed as static assets instead
