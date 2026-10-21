@@ -9,6 +9,7 @@ I remade PandaClient a few times, but after the third complete rewrite I finally
 Speaking of animation, I discovered [BeinBian](https://youtube.com/@beinbian) at the end of 2025 and really loved his animations. So I began doing my own, improving and failing all over, and I'm probably still doing it.
 After discontinuing PandaClient, I wanted to give back to my community (of 2 people, but those two matter). That's why I created Minified - an open-source Minecraft launcher framework that handles the boring stuff, from downloading game files and managing versions to installing mod loaders and launching the game, allowing developers to focus on creating great launchers. While developing and maintaining Minified, I learned Git: branches, tags, releases, how to commit properly, merging, and so on, all without a single YouTube tutorial :). Then I began contributing to other projects. One weekend, I ditched fancy-readme-stats and WakaTime, self hosted [Ziit](https://github.com/0pandadev/ziit), and built a script that pushes different profile cards to this repo every day, depending on the time of day, all that effort just because I didn't want to leak my server IP ;)
 
+[more about me](https://dervarex.is-a.dev/)
 ---
 
 ### Tech & Tools
