@@ -16,19 +16,18 @@ After discontinuing PandaClient, I wanted to give back to my community (of 2 peo
 
 ![Ziit Stats](https://raw-github-profile-card.dervarex.workers.dev/assets/ziit-stats.svg)
 
+![Java](https://img.shields.io/badge/Java-2d2d2d?style=flat&labelColor=1c1c1c&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-2d2d2d?style=flat&labelColor=1c1c1c&logo=git&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-2d2d2d?style=flat&labelColor=1c1c1c&logo=blender&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-2d2d2d?style=flat&labelColor=1c1c1c&logo=archlinux&logoColor=white)
+
 ---
 
 ### Projects
 
 This is the one I'm currently focusing on:
 
-![Minified](./assets/minified-card.svg?v=1789921131)
-
----
-
-### Find Me Around the Web
-
-[![Discord Presence](https://lanyard.cnrad.dev/api/1260289208560652359)](https://discord.com/users/1260289208560652359)
+[![Minified](./assets/minified-card.svg?v=1789921131)](https://github.com/dervarex/minified/)
 
 ---
 
