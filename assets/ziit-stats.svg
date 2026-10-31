@@ -2,18 +2,18 @@
 <rect width="560" height="198" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="393.59" height="8" fill="#b07219"/>
-<rect x="413.59" y="58" width="55.42" height="8" fill="#083fa1"/>
-<rect x="469.01" y="58" width="28.14" height="8" fill="#3178c6"/>
-<rect x="497.15" y="58" width="22.19" height="8" fill="#55171f"/>
-<rect x="519.34" y="58" width="20.66" height="8" fill="#dea584"/>
+<rect x="20.00" y="58" width="394.20" height="8" fill="#b07219"/>
+<rect x="414.20" y="58" width="55.29" height="8" fill="#083fa1"/>
+<rect x="469.49" y="58" width="27.95" height="8" fill="#3178c6"/>
+<rect x="497.44" y="58" width="22.04" height="8" fill="#55171f"/>
+<rect x="519.48" y="58" width="20.52" height="8" fill="#dea584"/>
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
-<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 91 hrs 19 mins</text>
+<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 92 hrs 5 mins</text>
 <circle cx="25.0" cy="122" r="5" fill="#083fa1"/>
 <text x="38.0" y="126" fill="#e6edf3" font-size="13">Markdown</text>
-<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 12 hrs 51 mins</text>
+<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 12 hrs 55 mins</text>
 <circle cx="25.0" cy="148" r="5" fill="#3178c6"/>
 <text x="38.0" y="152" fill="#e6edf3" font-size="13">TypeScript</text>
 <text x="260.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 6 hrs 31 mins</text>
