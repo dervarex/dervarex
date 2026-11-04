@@ -2,20 +2,20 @@
 <rect width="560" height="224" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="377.24" height="8" fill="#b07219"/>
-<rect x="397.24" y="58" width="52.62" height="8" fill="#083fa1"/>
-<rect x="449.85" y="58" width="25.48" height="8" fill="#3178c6"/>
-<rect x="475.34" y="58" width="20.10" height="8" fill="#55171f"/>
-<rect x="495.44" y="58" width="18.71" height="8" fill="#dea584"/>
-<rect x="514.15" y="58" width="13.39" height="8" fill="#cb171e"/>
-<rect x="527.54" y="58" width="12.46" height="8" fill="#f78de0"/>
+<rect x="20.00" y="58" width="377.18" height="8" fill="#b07219"/>
+<rect x="397.18" y="58" width="52.88" height="8" fill="#083fa1"/>
+<rect x="450.05" y="58" width="25.42" height="8" fill="#3178c6"/>
+<rect x="475.48" y="58" width="20.05" height="8" fill="#55171f"/>
+<rect x="495.52" y="58" width="18.67" height="8" fill="#dea584"/>
+<rect x="514.19" y="58" width="13.36" height="8" fill="#cb171e"/>
+<rect x="527.55" y="58" width="12.45" height="8" fill="#f78de0"/>
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
-<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 96 hrs 38 mins</text>
+<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 96 hrs 52 mins</text>
 <circle cx="25.0" cy="122" r="5" fill="#083fa1"/>
 <text x="38.0" y="126" fill="#e6edf3" font-size="13">Markdown</text>
-<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 13 hrs 28 mins</text>
+<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 13 hrs 34 mins</text>
 <circle cx="25.0" cy="148" r="5" fill="#3178c6"/>
 <text x="38.0" y="152" fill="#e6edf3" font-size="13">TypeScript</text>
 <text x="260.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 6 hrs 31 mins</text>
