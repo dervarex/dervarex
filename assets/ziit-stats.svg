@@ -2,10 +2,10 @@
 <rect width="560" height="224" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="371.40" height="8" fill="#b07219"/>
-<rect x="391.40" y="58" width="59.35" height="8" fill="#083fa1"/>
-<rect x="450.74" y="58" width="23.24" height="8" fill="#3178c6"/>
-<rect x="473.98" y="58" width="18.43" height="8" fill="#f78de0"/>
+<rect x="20.00" y="58" width="371.36" height="8" fill="#b07219"/>
+<rect x="391.36" y="58" width="59.40" height="8" fill="#083fa1"/>
+<rect x="450.75" y="58" width="23.23" height="8" fill="#3178c6"/>
+<rect x="473.99" y="58" width="18.43" height="8" fill="#f78de0"/>
 <rect x="492.41" y="58" width="18.32" height="8" fill="#55171f"/>
 <rect x="510.73" y="58" width="17.06" height="8" fill="#dea584"/>
 <rect x="527.79" y="58" width="12.21" height="8" fill="#cb171e"/>
@@ -15,7 +15,7 @@
 <text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 104 hrs 21 mins</text>
 <circle cx="25.0" cy="122" r="5" fill="#083fa1"/>
 <text x="38.0" y="126" fill="#e6edf3" font-size="13">Markdown</text>
-<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 16 hrs 40 mins</text>
+<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 16 hrs 41 mins</text>
 <circle cx="25.0" cy="148" r="5" fill="#3178c6"/>
 <text x="38.0" y="152" fill="#e6edf3" font-size="13">TypeScript</text>
 <text x="260.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 6 hrs 31 mins</text>
