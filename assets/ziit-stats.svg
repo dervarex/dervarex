@@ -2,26 +2,26 @@
 <rect width="560" height="224" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="372.81" height="8" fill="#b07219"/>
-<rect x="392.81" y="58" width="58.53" height="8" fill="#083fa1"/>
-<rect x="451.34" y="58" width="22.89" height="8" fill="#3178c6"/>
-<rect x="474.23" y="58" width="18.55" height="8" fill="#f78de0"/>
-<rect x="492.78" y="58" width="18.05" height="8" fill="#55171f"/>
-<rect x="510.83" y="58" width="16.81" height="8" fill="#dea584"/>
-<rect x="527.64" y="58" width="12.36" height="8" fill="#cb171e"/>
+<rect x="20.00" y="58" width="374.22" height="8" fill="#b07219"/>
+<rect x="394.22" y="58" width="57.60" height="8" fill="#083fa1"/>
+<rect x="451.82" y="58" width="22.33" height="8" fill="#3178c6"/>
+<rect x="474.15" y="58" width="18.92" height="8" fill="#f78de0"/>
+<rect x="493.07" y="58" width="17.61" height="8" fill="#55171f"/>
+<rect x="510.68" y="58" width="16.40" height="8" fill="#dea584"/>
+<rect x="527.08" y="58" width="12.92" height="8" fill="#cb171e"/>
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
-<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 106 hrs 20 mins</text>
+<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 109 hrs 24 mins</text>
 <circle cx="25.0" cy="122" r="5" fill="#083fa1"/>
 <text x="38.0" y="126" fill="#e6edf3" font-size="13">Markdown</text>
-<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 16 hrs 41 mins</text>
+<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 16 hrs 50 mins</text>
 <circle cx="25.0" cy="148" r="5" fill="#3178c6"/>
 <text x="38.0" y="152" fill="#e6edf3" font-size="13">TypeScript</text>
 <text x="260.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 6 hrs 31 mins</text>
 <circle cx="25.0" cy="174" r="5" fill="#f78de0"/>
 <text x="38.0" y="178" fill="#e6edf3" font-size="13">Diff</text>
-<text x="260.0" y="178" fill="#8b949e" font-size="12" text-anchor="end">- 5 hrs 17 mins</text>
+<text x="260.0" y="178" fill="#8b949e" font-size="12" text-anchor="end">- 5 hrs 31 mins</text>
 <circle cx="285.0" cy="96" r="5" fill="#55171f"/>
 <text x="298.0" y="100" fill="#e6edf3" font-size="13">QML</text>
 <text x="520.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 5 hrs 8 mins</text>
@@ -30,5 +30,5 @@
 <text x="520.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 4 hrs 47 mins</text>
 <circle cx="285.0" cy="148" r="5" fill="#cb171e"/>
 <text x="298.0" y="152" fill="#e6edf3" font-size="13">YAML</text>
-<text x="520.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 3 hrs 31 mins</text>
+<text x="520.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 3 hrs 46 mins</text>
 </svg>
