@@ -20,7 +20,7 @@ Well, after about 7 months of constant development on minified I kinda got tired
 ![Java](https://img.shields.io/badge/Java-2d2d2d?style=flat&labelColor=1c1c1c&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-2d2d2d?style=flat&labelColor=1c1c1c&logo=git&logoColor=white)
 ![Blender](https://img.shields.io/badge/Blender-2d2d2d?style=flat&labelColor=1c1c1c&logo=blender&logoColor=white)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-2d2d2d?style=flat&labelColor=1c1c1c&logo=archlinux&logoColor=white)
+![NixOS](https://img.shields.io/badge/NixOS-2d2d2d?style=flat&labelColor=1c1c1c&logo=nixos&logoColor=white)
 
 ---
 
