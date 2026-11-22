@@ -28,7 +28,7 @@ Well, after about 7 months of constant development on minified I kinda got tired
 
 This is the one I'm currently focusing on:
 
-[![Minified](./assets/minified-card.svg?v=1789921131)](https://github.com/dervarex/minified/)
+[![Servified](./assets/servified-card.svg?v=1789921131)](https://github.com/dervarex/servified/)
 
 ---
 
