@@ -231,15 +231,15 @@
   </g>
   <g class="fade-in-up">
     <text x="100" y="150" class="stat-label">Total Commits:</text>
-    <text x="300" y="150" class="stat-value">912</text>
+    <text x="300" y="150" class="stat-value">931</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="180" class="stat-label">Coding Time:</text>
-    <text x="300" y="180" class="stat-value">184h</text>
+    <text x="300" y="180" class="stat-value">185h</text>
   </g>
   <g class="fade-in-up">
     <text x="100" y="210" class="stat-label">Contributions (2026):</text>
-    <text x="300" y="210" class="stat-value">980</text>
+    <text x="300" y="210" class="stat-value">1005</text>
   </g>
 
   <g class="fade-in-up">

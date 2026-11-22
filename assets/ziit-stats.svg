@@ -2,23 +2,23 @@
 <rect width="560" height="224" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="36" fill="#e6edf3" font-size="20" font-weight="600">Stats</text>
 <clipPath id="c"><rect x="20" y="58" width="520" height="8" rx="4"/></clipPath><g clip-path="url(#c)">
-<rect x="20.00" y="58" width="379.33" height="8" fill="#b07219"/>
-<rect x="399.33" y="58" width="56.24" height="8" fill="#083fa1"/>
-<rect x="455.57" y="58" width="20.56" height="8" fill="#f78de0"/>
-<rect x="476.13" y="58" width="20.51" height="8" fill="#3178c6"/>
-<rect x="496.64" y="58" width="16.17" height="8" fill="#55171f"/>
-<rect x="512.82" y="58" width="15.06" height="8" fill="#dea584"/>
-<rect x="527.88" y="58" width="12.12" height="8" fill="#cb171e"/>
+<rect x="20.00" y="58" width="378.84" height="8" fill="#b07219"/>
+<rect x="398.84" y="58" width="56.96" height="8" fill="#083fa1"/>
+<rect x="455.81" y="58" width="20.61" height="8" fill="#f78de0"/>
+<rect x="476.42" y="58" width="20.42" height="8" fill="#3178c6"/>
+<rect x="496.84" y="58" width="16.10" height="8" fill="#55171f"/>
+<rect x="512.94" y="58" width="14.99" height="8" fill="#dea584"/>
+<rect x="527.93" y="58" width="12.07" height="8" fill="#cb171e"/>
 </g>
 <circle cx="25.0" cy="96" r="5" fill="#b07219"/>
 <text x="38.0" y="100" fill="#e6edf3" font-size="13">Java</text>
-<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 120 hrs 44 mins</text>
+<text x="260.0" y="100" fill="#8b949e" font-size="12" text-anchor="end">- 121 hrs 8 mins</text>
 <circle cx="25.0" cy="122" r="5" fill="#083fa1"/>
 <text x="38.0" y="126" fill="#e6edf3" font-size="13">Markdown</text>
-<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 17 hrs 54 mins</text>
+<text x="260.0" y="126" fill="#8b949e" font-size="12" text-anchor="end">- 18 hrs 12 mins</text>
 <circle cx="25.0" cy="148" r="5" fill="#f78de0"/>
 <text x="38.0" y="152" fill="#e6edf3" font-size="13">Diff</text>
-<text x="260.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 6 hrs 32 mins</text>
+<text x="260.0" y="152" fill="#8b949e" font-size="12" text-anchor="end">- 6 hrs 35 mins</text>
 <circle cx="25.0" cy="174" r="5" fill="#3178c6"/>
 <text x="38.0" y="178" fill="#e6edf3" font-size="13">TypeScript</text>
 <text x="260.0" y="178" fill="#8b949e" font-size="12" text-anchor="end">- 6 hrs 31 mins</text>
